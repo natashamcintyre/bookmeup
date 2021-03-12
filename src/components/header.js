@@ -36,10 +36,10 @@ class Header extends React.Component {
             <img src="images/logonegative.png"></img>
             <Switch>
               <Route path="/sign-up">
-                <UserSignup addUser={ this.props.userAPI } />
+                <UserSignup addUser={ this.props.addUser } />
               </Route>
               <Route path="/sign-in">
-                <UserSignin signinUser={ this.props.userAPI } />
+                <UserSignin signinUser={ this.props.addUser } />
               </Route>
               <Route exact path="/">
                 <h1>Welcome to Book Me Up!</h1>
@@ -73,7 +73,7 @@ Header.propTypes = {
   submitISBN: PropTypes.func,
   bookTitle: PropTypes.string,
   bookAuthor: PropTypes.string,
-  userAPI: PropTypes.func
+  addUser: PropTypes.func
 }
 
 export default Header
