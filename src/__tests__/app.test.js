@@ -224,7 +224,7 @@ xdescribe('user routes', () => {
     mockAxios.post.mockImplementation(() =>
       Promise.resolve({ success: true }))
 
-    conponent.find('div#books_list').find('button').simulate('click')
+    component.find('div#books_list').find('button').simulate('click')
 
     await component.find('button#book-request-button').update()
 

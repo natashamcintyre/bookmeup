@@ -36,8 +36,8 @@ describe('navigation', () => {
           </MemoryRouter>
     )
 
-    expect(component.find("a#logout_link").exists()).toBe(true)
-    component.find("a#logout_link").simulate('click')
+    expect(component.find('a#logout_link').exists()).toBe(true)
+    component.find('a#logout_link').simulate('click')
     expect(logoutMock.mock.calls.length).toBe(1)
   })
 })

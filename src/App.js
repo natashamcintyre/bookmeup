@@ -88,7 +88,6 @@ class BookMeUp extends Component {
 
   logout = () => {
     axios.post(`${PORT}/logout`).then((result) => {
-      console.log(result)
       this.setCurrentUser({ displayName: '' })
       localStorage.clear()
       return <Redirect to='/sign-up' />
@@ -123,7 +122,7 @@ class BookMeUp extends Component {
   }
 
   componentDidMount () {
-    var user = JSON.parse(localStorage.getItem('user'))
+    const user = JSON.parse(localStorage.getItem('user'))
     if (user) {
       this.setCurrentUser(user)
     } else {
