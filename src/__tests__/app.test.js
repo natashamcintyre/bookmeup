@@ -150,7 +150,7 @@ describe('BookMeUp erroring', () => {
     await component.update()
     expect(mockAxios.get).toHaveBeenCalledTimes(1)
     expect(component.state().error).toEqual({ response: { data: 'error text from json mock' } })
-    expect(component.find('#error').text()).toBe('Error: error text from json mock')
+    expect(component.find('#error').text()).toBe('Error: This isn`t working again! {this.props.error.response.data}')
   })
 })
 

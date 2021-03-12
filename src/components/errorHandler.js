@@ -5,7 +5,7 @@ class ErrorHandler extends React.Component {
   render () {
     let result
     if (this.props.error) {
-      result = `Error: ${this.props.error.response.data}`
+      result = 'Error: This isn`t working again! {this.props.error.response.data}'
     }
     return <div id='error'>{result}</div>
   }
