@@ -1,0 +1,309 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, sans-serif;
+  color: rgb(13, 43, 109);
+}
+
+.navbar {
+  background: rgb(246, 246, 246);
+}
+
+.navbar i {
+  color:rgb(87, 195, 245);
+}
+
+.navbar i:hover {
+  color: rgb(13, 43, 109)
+}
+
+.navbar li {
+  align-self: center;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+#hamburgerIcon {
+  color: rgb(246, 246, 246);
+}
+
+.header {
+  background-color: rgb(13, 43, 109);
+  margin-bottom: 10px;
+}
+
+.usersignupform {
+  text-align: center;
+}
+
+.header-content {
+  padding: 80px 30px;
+  text-align: center;
+  color: rgb(87, 195, 245);
+}
+
+.header-content button {
+  border: 1px solid rgb(87, 195, 245);
+  background: rgb(87, 195, 245);
+  color: rgb(13, 43, 109);
+}
+
+.header-content button:hover {
+  border: 1px solid rgb(246, 246, 246);
+  background: rgb(246, 246, 246);
+  color: rgb(13, 43, 109);
+}
+
+.add_book {
+  margin: 10px;
+  padding: 10px;
+  background: rgb(13, 43, 109);
+  color: rgb(87, 195, 245);
+}
+
+#book_form button {
+  border: 1px solid rgb(87, 195, 245);
+  background: rgb(87, 195, 245);
+  color: rgb(13, 43, 109);
+}
+#book_form button:hover {
+  border: 1px solid rgb(13, 43, 109);
+  background: rgb(246, 246, 246);
+  color: rgb(13, 43, 109);
+}
+
+#search button {
+  border: 1px solid rgb(87, 195, 245);
+  background: rgb(87, 195, 245);
+  color: rgb(13, 43, 109);
+}
+#search button:hover {
+  border: 1px solid rgb(13, 43, 109);
+  background: rgb(246, 246, 246);
+  color: rgb(13, 43, 109);
+}
+
+.navbar button {
+  border: 1px solid rgb(87, 195, 245);
+  background: rgb(87, 195, 245);
+  color: rgb(13, 43, 109);
+}
+.navbar button:hover {
+  border: 1px solid rgb(13, 43, 109);
+  background: rgb(13, 43, 109);
+  color: rgb(246, 246, 246);
+}
+
+.special-nav {
+  justify-content: flex-end;
+}
+
+#book_search_too_input {
+  width: 40vw;
+}
+
+.new_user {
+  text-align: center;
+}
+
+.user_signin {
+  text-align: center;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -mox-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 200px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: rgb(13, 43, 109);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #fff;
+  width: 80%;
+  color: white;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.scanbox {
+  border: 1px solid rgb(53, 64, 156);
+  background: rgb(87, 195, 245);
+  border-radius: 4px;
+  color: rgb(13, 43, 109);
+  margin-bottom: 15px;
+}
+
+.scanbox:hover {
+  border: 1px solid rgb(12, 133, 240);
+  background: rgb(246, 246, 246);
+  border-radius: 4px;
+  color: rgb(13, 6, 80);
+}
+
+#ISBNSearch {
+  border-radius: 6px;
+  margin-right: 3px;
+}
+
+.homepage button {
+  border-radius: 6px;
+}
+
+.close {
+  color: rgb(87, 195, 245);
+  font-size: 28px;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(87, 195, 245);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title-and-author {
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-book-image {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.book-container {
+  height: 450px;
+  padding: 6px;
+}
+
+.inner-book-container {
+  background-color: rgb(246, 246, 246);
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+  border: 1px solid rgb(13, 43, 109);
+  color: rgb(13, 43, 109);
+}
+
+.book-image img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.book-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.book-current-location {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.book-info-button {
+  display: flex;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-info-button button {
+  border: 1px solid rgb(13, 43, 109);
+  background: rgb(13, 43, 109);
+  color: rgb(246, 246, 246);
+}
+
+.book-info-button button:hover {
+  border: 1px solid rgb(87, 195, 245);
+  background: rgb(87, 195, 245);
+  color: rgb(13, 43, 109);
+}
+
+.new_user {
+  text-align: center;
+}
+
+.user_signin {
+  text-align: center;
+}
+
+.book-info-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#book_request button {
+  border: 1px solid rgb(87, 195, 245);
+  background: rgb(87, 195, 245);
+  color: rgb(13, 43, 109);
+}
+
+#book_request button:hover {
+  border: 1px solid rgb(246, 246, 246);
+  background: rgb(246, 246, 246);
+  color: rgb(13, 43, 109);
+}
+
+#signInForm button {
+  border: 1px solid rgb(87, 195, 245);
+  background: rgb(87, 195, 245);
+  color: rgb(13, 43, 109);
+}
+
+#signInForm button:hover {
+  border: 1px solid rgb(246, 246, 246);
+  background: rgb(246, 246, 246);
+  color: rgb(13, 43, 109);
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(87, 195, 245);
+}
