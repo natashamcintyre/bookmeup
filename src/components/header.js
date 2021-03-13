@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import IsbnSearchModal from './isbnSearchModal.js'
-import UserSignin from './userSignin'
-import UserSignup from './userSignup'
-import { HashRouter, Switch, Route } from 'react-router-dom'
+// import UserSignin from './userSignin'
+// import UserSignup from './userSignup'
+// import { HashRouter, Switch, Route } from 'react-router-dom'
 
 class Header extends React.Component {
   constructor () {
@@ -22,19 +22,13 @@ class Header extends React.Component {
   }
 
   render () {
-    const aboutUsText = `Due to the closure of many public libraries,
-      many have lost the community space once afforded to them.
-      Book Me Up is a chance for communities to create their own
-      public libraries, uploading books that have already been read
-      for others to enjoy. So upload a book, and enjoy the feeling of
-      discovering a new read from someone in your own community.`
-
     return (
-      <HashRouter>
+      // <HashRouter>
         <div className="header col-12">
           <div className="header-content col-12 col-md-6 offset-md-3">
             <img src="images/logonegative.png"></img>
-            <Switch>
+            { this.props.children }
+            {/* <Switch>
               <Route path="/sign-up">
                 <UserSignup addUser={ this.props.addUser } />
               </Route>
@@ -60,10 +54,10 @@ class Header extends React.Component {
                   </div>
                 </div>
               </Route>
-            </Switch>
+            </Switch> */}
           </div>
         </div>
-      </HashRouter>
+      // </HashRouter>
     )
   }
 }
