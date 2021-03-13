@@ -64,8 +64,11 @@ class BookMeUp extends Component {
   submitISBN = (isbn) => {
     axios.get(`${OPENLIBRARY}/api/books?bibkeys=ISBN:${isbn}&format=json&jscmd=data`)
       .then((result) => {
-        // DO SOMETHING IF RESPONSE IS EMPTY
-        this.setBook(result.data[`ISBN:${isbn}`])
+        if (result === {}) {
+          alert('Could not find book. Please try again')
+        } else {
+          this.setBook(result.data[`ISBN:${isbn}`])          
+        }
       })
       .catch((err) => {
         console.log(err)
