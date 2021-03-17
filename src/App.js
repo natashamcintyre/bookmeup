@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom'
 
 import axios from 'axios'
-const PORT = 'https://book-me-up.herokuapp.com/https://git.heroku.com/bookmeup-api.git'
+const PORT = 'https://book-me-up.herokuapp.com/https://bookmeup-api.herokuapp.com'
 const OPENLIBRARY = 'https://openlibrary.org'
 
 class BookMeUp extends Component {
@@ -67,7 +67,7 @@ class BookMeUp extends Component {
         if (result === {}) {
           alert('Could not find book. Please try again')
         } else {
-          this.setBook(result.data[`ISBN:${isbn}`])          
+          this.setBook(result.data[`ISBN:${isbn}`])
         }
       })
       .catch((err) => {
