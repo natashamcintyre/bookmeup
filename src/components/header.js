@@ -50,7 +50,7 @@ class Header extends React.Component {
                   <div className="modal-content">
                     <span id="closeHowTo" className="close">&times;</span>
                     <p>{aboutUsText}</p>
-                    <p> <a style={{ 'font-weight': 'bold' }} href="https://github.com/argy-bargy" target='_blank' rel='noreferrer'>Team Argy-Bargy</a> </p>
+                    <p> <a style={{ 'fontWeight': 'bold' }} href="https://github.com/argy-bargy" target='_blank' rel='noreferrer'>Team Argy-Bargy</a> </p>
                     <p> <a href="https://github.com/AmanTank187" target='_blank' rel='noreferrer'>Aman Tank</a> </p>
                     <p> <a href="https://github.com/calavell" target='_blank' rel='noreferrer'>Cathal Lavelle</a> </p>
                     <p> <a href="https://github.com/chriswhitehouse" target='_blank' rel='noreferrer'>Chris Whitehouse</a> </p>
