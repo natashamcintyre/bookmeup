@@ -1,6 +1,7 @@
 Issues
 * Errors if incorrect ISBN is entered
 * Error Handler
+* Font awesome not loading - CORS nonsense
 
 Compiled a production build:
 
