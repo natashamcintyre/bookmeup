@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom'
 
 import axios from 'axios'
-const PORT = 'https://book-me-up.herokuapp.com/https://bookmeup-api.herokuapp.com'
+const PORT = 'https://bookmeup-api.herokuapp.com'
 const OPENLIBRARY = 'https://openlibrary.org'
 
 class BookMeUp extends Component {
