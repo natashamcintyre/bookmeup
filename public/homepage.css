@@ -61,6 +61,12 @@ body {
   padding: 10px;
   background: rgb(13, 43, 109);
   color: rgb(87, 195, 245);
+  align-self: center;
+  text-align: left;
+}
+
+#barcodeScanner {
+  text-align: center;
 }
 
 #book_form button {

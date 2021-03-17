@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom'
 
 import axios from 'axios'
-const PORT = 'https://bookmeup-api.herokuapp.com/'
+const PORT = 'https://bookmeup-api.herokuapp.com'
 const OPENLIBRARY = 'https://openlibrary.org'
 
 class BookMeUp extends Component {
@@ -64,7 +64,7 @@ class BookMeUp extends Component {
   submitISBN = (isbn) => {
     axios.get(`${OPENLIBRARY}/api/books?bibkeys=ISBN:${isbn}&format=json&jscmd=data`)
       .then((result) => {
-        if (result === {}) {
+        if (result.data[`ISBN:${isbn}`] === undefined) {
           alert('Could not find book. Please try again')
         } else {
           this.setBook(result.data[`ISBN:${isbn}`])

@@ -19,7 +19,7 @@ class BarcodeScanner extends Component {
 
   render () {
     return (
-      <div>
+      <div id='barcodeScanner'>
         <button className='scanbox' onClick={this._scan} >
           <i className='fas fa-barcode' id='barcodeIcon'></i>
           {this.state.scanning ? ' Stop Scan' : ' Go on. Scan it'}
