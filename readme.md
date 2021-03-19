@@ -1,4 +1,4 @@
-# Book Me Up
+<h2 align=center><a href="https://book-me-up.herokuapp.com/">Book Me Up</a></h2>
 A web application to allow users to offer books to share with the community. This is the frontend, which communicates with the [backend](https://github.com/natashamcintyre/bookmeup-api) via API.
 
 ## Motivation
@@ -14,7 +14,7 @@ To demonstrate the ability to build a high quality single page web app, in a new
 ![Home Screen](https://github.com/argy-bargy/book_swap/blob/main/screenshots/Screenshot%202021-03-01%20at%2015.28.59.png)
 
 ## Tech/framework used
-**Built with**
+**Built with** (frontend)
   - [React](https://reactjs.org)
   - [Node.JS](https://nodejs.org)
   - [Atom](https://atom.io)
@@ -44,7 +44,7 @@ Key Features:
   ```
 
 ## Installation
-  To use locally, you will need to clone the [backend repo](https://github.com/natashamcintyre/bookmeup-api) as well. Please follow the instructions there to get the backend installed. For the frontend, clone this repo, then:
+  To use locally, you will need to clone the [backend repo](https://github.com/natashamcintyre/bookmeup-api) as well. Please follow the instructions [here](https://github.com/natashamcintyre/bookmeup-api#installation) to get the backend installed. For the frontend, clone this repo, then:
   ```
   $ cd bookmeup
   $ npm install
@@ -62,7 +62,7 @@ Key Features:
   $ npm test -- --coverage --watchAll=false
   ```
   
-  For end to end testing, ensure the [backend](https://github.com/natashamcintyre/bookmeup-api) is up and running, then:
+  For end to end testing, ensure the [backend](https://github.com/natashamcintyre/bookmeup-api#how-to-use) is up and running, then:
   ```
   $ npm start
   $ npx cypress open
@@ -76,23 +76,18 @@ Key Features:
 ## How to use?
 The frontend and backend run independently on separate servers.
 
-To use Book Me Up, start the backend server (instructions [here](https://github.com/natashamcintyre/bookmeup-api)) then, in a new terminal:
+To use Book Me Up, start the backend server (instructions [here](https://github.com/natashamcintyre/bookmeup-api#how-to-use)) then, in a new terminal:
 
   ```
   $ npm start
   ```
 
-  ## Credits
+## Credits
 
-  Team argy-bargy:  
-  [Aman Tank](https://github.com/AmanTank187)  
-  [Cathal Lavelle](https://github.com/calavell)  
-  [Chris Whitehouse](https://github.com/chriswhitehouse)  
-  [Kiki Dawson](https://github.com/kikidawson)  
-  [Natasha McIntyre](https://github.com/natashamcintyre)  
-  [Will Dixon](https://github.com/WillDixon93)  
-
-## Current Issues
-* Errors if incorrect ISBN is entered
-* Error Handler
-* Check both repos can run locally given above instructions
+Team argy-bargy:  
+[Aman Tank](https://github.com/AmanTank187)  
+[Cathal Lavelle](https://github.com/calavell)  
+[Chris Whitehouse](https://github.com/chriswhitehouse)  
+[Kiki Dawson](https://github.com/kikidawson)  
+[Natasha McIntyre](https://github.com/natashamcintyre)  
+[Will Dixon](https://github.com/WillDixon93)  
