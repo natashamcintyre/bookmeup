@@ -1,4 +1,7 @@
 <h2 align=center><a href="https://book-me-up.herokuapp.com/">Book Me Up</a></h2>
+
+<h4 align=center><a href="https://github.com/natashamcintyre/bookmeup#screenshots">Screenshots</a> | <a href="https://github.com/natashamcintyre/bookmeup#tech-stack">Tech Stack</a> | <a href="https://github.com/natashamcintyre/bookmeup#features">Features</a> | <a href="https://github.com/natashamcintyre/bookmeup#installation">Installation</a> | <a href="https://github.com/natashamcintyre/bookmeup#tests">Testing</a> | <a href="https://github.com/natashamcintyre/bookmeup#how-to-use">How To Use</a> | <a href="https://github.com/natashamcintyre/bookmeup#credits">Credits</a></h4>
+
 A web application to allow users to offer books to share with the community. This is the frontend, which communicates with the [backend](https://github.com/natashamcintyre/bookmeup-api) via API.
 
 ## Motivation
@@ -13,7 +16,7 @@ To demonstrate the ability to build a high quality single page web app, in a new
 ## Screenshots
 ![Home Screen](https://github.com/argy-bargy/book_swap/blob/main/screenshots/Screenshot%202021-03-01%20at%2015.28.59.png)
 
-## Tech/framework used
+## Tech Stack
 **Built with** (frontend)
   - [React](https://reactjs.org)
   - [Node.JS](https://nodejs.org)
@@ -74,6 +77,8 @@ Key Features:
   `$ npx eslint .`
 
 ## How to use?
+Either visit the [live site](https://book-me-up.herokuapp.com/) or, to use locally:
+
 The frontend and backend run independently on separate servers.
 
 To use Book Me Up, start the backend server (instructions [here](https://github.com/natashamcintyre/bookmeup-api#how-to-use)) then, in a new terminal:
@@ -84,10 +89,4 @@ To use Book Me Up, start the backend server (instructions [here](https://github.
 
 ## Credits
 
-Team argy-bargy:  
-[Aman Tank](https://github.com/AmanTank187)  
-[Cathal Lavelle](https://github.com/calavell)  
-[Chris Whitehouse](https://github.com/chriswhitehouse)  
-[Kiki Dawson](https://github.com/kikidawson)  
-[Natasha McIntyre](https://github.com/natashamcintyre)  
-[Will Dixon](https://github.com/WillDixon93)  
+Team Argy-Bargy: [Aman Tank](https://github.com/AmanTank187), [Cathal Lavelle](https://github.com/calavell), [Chris Whitehouse](https://github.com/chriswhitehouse), [Kiki Dawson](https://github.com/kikidawson), [Natasha McIntyre](https://github.com/natashamcintyre) and [Will Dixon](https://github.com/WillDixon93)
