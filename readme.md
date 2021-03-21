@@ -1,7 +1,5 @@
 <h2 align=center><a href="https://book-me-up.herokuapp.com/" target="_blank"><img src="https://github.com/natashamcintyre/bookmeup/blob/main/public/images/logo.png"></a></h2>
 
-https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#screenshots
-
 <h4 align=center><a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#screenshots">Screenshots</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#tech-stack">Tech Stack</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#features">Features</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#installation">Installation</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#how-to-use">How To Use</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#tests">Testing</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#credits">Credits</a></h4>
 
 A web application to allow users to offer books to share with the community. This is the frontend, which communicates with the [backend](https://github.com/natashamcintyre/bookmeup-api) via API.
