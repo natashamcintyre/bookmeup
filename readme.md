@@ -1,6 +1,8 @@
 <h2 align=center><a href="https://book-me-up.herokuapp.com/" target="_blank"><img src="https://github.com/natashamcintyre/bookmeup/blob/main/public/images/logo.png"></a></h2>
 
-<h4 align=center><a href="https://github.com/natashamcintyre/bookmeup#screenshots">Screenshots</a> | <a href="https://github.com/natashamcintyre/bookmeup#tech-stack">Tech Stack</a> | <a href="https://github.com/natashamcintyre/bookmeup#features">Features</a> | <a href="https://github.com/natashamcintyre/bookmeup#installation">Installation</a> | <a href="https://github.com/natashamcintyre/bookmeup#how-to-use">How To Use</a> | <a href="https://github.com/natashamcintyre/bookmeup#tests">Testing</a> | <a href="https://github.com/natashamcintyre/bookmeup#credits">Credits</a></h4>
+https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#screenshots
+
+<h4 align=center><a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#screenshots">Screenshots</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#tech-stack">Tech Stack</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#features">Features</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#installation">Installation</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#how-to-use">How To Use</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#tests">Testing</a> | <a href="https://github.com/natashamcintyre/bookmeup/blob/main/readme.md#credits">Credits</a></h4>
 
 A web application to allow users to offer books to share with the community. This is the frontend, which communicates with the [backend](https://github.com/natashamcintyre/bookmeup-api) via API.
 
@@ -41,7 +43,7 @@ Key Features:
   ```
 
 ## Installation
-To use locally, you will need to clone the [backend repo](https://github.com/natashamcintyre/bookmeup-api) as well. Please follow the instructions [here](https://github.com/natashamcintyre/bookmeup-api#installation) to get the backend installed. For the frontend, clone this repo, then:
+To use locally, you will need to clone the [backend repo](https://github.com/natashamcintyre/bookmeup-api) as well. Please follow the instructions [here](https://github.com/natashamcintyre/bookmeup-api/blob/main/readme.md#installation) to get the backend installed. For the frontend, clone this repo, then:
 ```
 $ cd bookmeup
 $ npm install
@@ -53,7 +55,7 @@ Either visit the [live site](https://book-me-up.herokuapp.com/) or, to use local
 
 The frontend and backend run independently on separate servers.
 
-To use Book Me Up, start the backend server (instructions [here](https://github.com/natashamcintyre/bookmeup-api#how-to-use)) then, in a new terminal:
+To use Book Me Up, start the backend server (instructions [here](https://github.com/natashamcintyre/bookmeup-api/blob/main/readme.md#how-to-use)) then, in a new terminal:
 
 ```
 $ npm start
@@ -67,7 +69,7 @@ Run the following to for frontend test coverage:
 $ npm test -- --coverage --watchAll=false
 ```
 
-For end to end testing, ensure the [backend](https://github.com/natashamcintyre/bookmeup-api#how-to-use) is up and running, then:
+For end to end testing, ensure the [backend](https://github.com/natashamcintyre/bookmeup-api/blob/main/readme.md#how-to-use) is up and running, then:
 ```
 $ npm start
 $ npx cypress open
