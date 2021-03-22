@@ -90,4 +90,4 @@ Team Argy-Bargy: [Aman Tank](https://github.com/AmanTank187), [Cathal Lavelle](h
 
 This project utilizes the OpenLibrary Books API: https://openlibrary.org/dev/docs/api/books, to request all related book information.
 
-Please visit Argy-Bargy's original [Book Me Up Wiki](https://github.com/argy-bargy/book_swap/wiki) for further documentation such as daily summaries, reflections and little nuggets of learning.
+Please visit the [Wiki](https://github.com/natashamcintyre/bookmeup/wiki) for known issues and Argy-Bargy's original [Book Me Up Wiki](https://github.com/argy-bargy/book_swap/wiki) for further documentation such as daily summaries, reflections and little nuggets of learning.
