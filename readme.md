@@ -48,7 +48,7 @@ $ npm install
 ```
 You will need npm, which is installed with Node.js. Please visit the [Node.js website](https://nodejs.org/en/download/) to download.
 
-## How to use?
+## How to use
 Either visit the [live site](https://book-me-up.herokuapp.com/) or, to use locally:
 
 The frontend and backend run independently on separate servers.
@@ -89,3 +89,5 @@ We are using ESlint.
 Team Argy-Bargy: [Aman Tank](https://github.com/AmanTank187), [Cathal Lavelle](https://github.com/calavell), [Chris Whitehouse](https://github.com/chriswhitehouse), [Kiki Dawson](https://github.com/kikidawson), [Natasha McIntyre](https://github.com/natashamcintyre) and [Will Dixon](https://github.com/WillDixon93)
 
 This project utilizes the OpenLibrary Books API: https://openlibrary.org/dev/docs/api/books, to request all related book information.
+
+Please visit Argy-Bargy's original [Book Me Up Wiki](https://github.com/argy-bargy/book_swap/wiki) for further documentation such as daily summaries, reflections and little nuggets of learning.
