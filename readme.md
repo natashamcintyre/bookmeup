@@ -28,17 +28,29 @@ Key Features:
 
 ## Code Example
   Frontend App.JS:
+  ```JS
+  class BookMeUp extends Component {
+  constructor () {
+    super()
+    this.state = {
+      books: [],
+      book: { title: '', authors: [{ name: '' }] },
+      currentUser: { displayName: '' }
+    }
+  }
+
+  getBooks = () => {
+    axios.get(`${PORT}/`)
+      .then((result) => {
+        this.setBooks(result.data)
+      })
+      .catch((err) => {
+        this.setError(err)
+      })
+  }
   ```
-  Refactors needed:
-  * Remove individual title, author, isbn variables from APP.js - DONE :)
-  * Rename bookSearchToo - DONE :)
-  * Refactoring a User object - DONE :)
-  * Combine all three header components (possibly through composition: https://reactjs.org/docs/composition-vs-inheritance.html) - DONE :)
-  * Create generic get request function with URL parameters
-  * Error Handling Front End Set Up??
-  * Refactor out BookHandler.js and UserHandler.js out of APP.js as modules?
-  * Is there a better way of positioning API calls in the file structure?
-  ```
+  
+  Refactoring in progress. See [Refactoring](https://github.com/natashamcintyre/bookmeup/wiki/Refactors) for more info
 
 ## Installation
 To use locally, you will need to clone the [backend repo](https://github.com/natashamcintyre/bookmeup-api) as well. Please follow the instructions [here](https://github.com/natashamcintyre/bookmeup-api/blob/main/readme.md#installation) to get the backend installed. For the frontend, clone this repo, then:
