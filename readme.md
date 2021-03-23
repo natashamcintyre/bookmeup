@@ -98,6 +98,8 @@ We are using ESlint.
 
 ## Credits
 
+Watch our presentation of Book Me Up, including a demo, [here](https://www.youtube.com/watch?v=6qhARDPyS8Q) (~3.00 -> ~10.00)
+
 Team Argy-Bargy: [Aman Tank](https://github.com/AmanTank187), [Cathal Lavelle](https://github.com/calavell), [Chris Whitehouse](https://github.com/chriswhitehouse), [Kiki Dawson](https://github.com/kikidawson), [Natasha McIntyre](https://github.com/natashamcintyre) and [Will Dixon](https://github.com/WillDixon93)
 
 This project utilizes the OpenLibrary Books API: https://openlibrary.org/dev/docs/api/books, to request all related book information.
